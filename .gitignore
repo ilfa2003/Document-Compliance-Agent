@@ -1,0 +1,13 @@
+# Ignore virtual environment
+.shirawi/
+
+# Ignore environment variables file
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings
+.vscode/

@@ -1,0 +1,10 @@
+Invoice_LACO-39 – Compliance Report
+
+✅ DEC Matched: 203-04144376-23
+✅ CRN No. Matched: 319303
+❌ Total Weight Match: Invoice: 1522kg, Waybill: 1522kg, Customs Declaration/Waybill: 522kg. Discrepancy between Invoice/Waybill and Customs Declaration.
+❌ Exporter Name Consistency: Invoice: Leminar Air-Conditioning Co LLC Dubai, Waybill: LEMINAR AIR CONDITIONING CO LLC (I-L0237) (Consignee, Exporter missing), Customs Declaration: Leminar (Shipper).  While similar, the Waybill is missing the exporter and uses the invoice party as consignee.
+❌ Vehicle/Container Number Match:  Customs Declaration: 289278 DX3. Waybill: Marks 19817 DXB, C.NOTE. 319303. No clear vehicle/container number match. The Waybill "Marks and numbers" field likely refers to a different marking.
+❌ Invoice Date vs Certificate: Invoice Date: 8/11/2023, Waybill/Customs Declaration Date: 15/08/2023. The invoice date is *before* the customs declaration date, violating the rule.
+
+Final Status: FAIL (4 issues found)

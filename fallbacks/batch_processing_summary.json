@@ -1,0 +1,273 @@
+[
+  {
+    "status": "success",
+    "message": "Dubai Customs certificate processed and saved successfully",
+    "mongodb_id": "682d85b35cb8d1fe9c4db351",
+    "bill_number": "Unknown",
+    "data": {
+      "Certificate date": "15 08 2023",
+      "Exporter name and details": "LEMINAR AIR CONDITIONING CO LLC",
+      "Bill number": "203-04144376-23",
+      "Export bill/Air way bill/Manifest information": null,
+      "Country of origin": "IN, CN",
+      "Point of exit": "HATTA (Al Wajajah)",
+      "Destination": "OMAN",
+      "Description of goods": [
+        "Rubber Support",
+        "Spring Hanger",
+        "FJFF 65, FJFF 300, FJFF 75",
+        "Hattersley Valves",
+        "Clamp and Accessories"
+      ],
+      "Invoice details": {
+        "invoice number": "LACO-39",
+        "invoice date": "11.08.2023"
+      },
+      "Total quantity": "03-PLT",
+      "Total weight": "1522 KGS",
+      "Container/Vehicle number": "19817 DXB",
+      "Customs seal number": null,
+      "Related invoices": null,
+      "extraction_timestamp": "2025-05-21T11:50:07.690230",
+      "source_filename": "customs-certificate.pdf",
+      "document_type": "customs_certificate",
+      "issuing_authority": "Dubai Customs",
+      "_id": "682d85b35cb8d1fe9c4db351"
+    },
+    "file": "documents/customs-certificate.pdf"
+  },
+  {
+    "status": "success",
+    "message": "UAE Customs declaration processed and saved successfully",
+    "mongodb_id": "682d85c55cb8d1fe9c4db353",
+    "declaration_number": "Unknown",
+    "data": {
+      "Declaration number (DEC NO.)": "203-04144376-23",
+      "Declaration date": "15/08/2023",
+      "Port type": "LAND",
+      "Declaration type": "EXPORT",
+      "Customs declaration statistical information": "Export Statistical Declaration",
+      "Net weight": "1522 kg",
+      "Gross weight": "1522 kg",
+      "Consignee/Exporter details": {
+        "Consignee": "LEMINAR AIR CONDITIONING CO LLC (I-L0237)",
+        "Exporter": null,
+        "Intercessor Co.": "INTERCESSOR CO."
+      },
+      "Commercial registration numbers": "226140 / 100060237300003",
+      "Number of packages": "3",
+      "Package type": "PALLET",
+      "Marks and numbers": "19817 DXB, C.NOTE. 319303",
+      "Port of loading": "DUBAI LAND TERMINAL",
+      "Port of discharge": null,
+      "Destination": "OMAN",
+      "Line items": [
+        {
+          "HS code": "82057000",
+          "Goods description": "CLAMP AND ACCESSORIES",
+          "Origin": "IN",
+          "CIF value": "7695.34 AED"
+        },
+        {
+          "HS code": "40169990",
+          "Goods description": "FJFF 65, FJFF 300, FJF",
+          "Origin": "IN",
+          "CIF value": "16438.44 AED"
+        },
+        {
+          "HS code": "40169990",
+          "Goods description": "SPRING HANGER",
+          "Origin": "IN",
+          "CIF value": "6107.18 AED"
+        },
+        {
+          "HS code": "84818090",
+          "Goods description": "HATTERSLEY VALVES",
+          "Origin": "CN",
+          "CIF value": "5532.64 AED"
+        },
+        {
+          "HS code": "40169990",
+          "Goods description": "RUBBER SUPPORT",
+          "Origin": "IN",
+          "CIF value": "16249.26 AED"
+        }
+      ],
+      "Total duty": "0.00 AED",
+      "Clearing agent details": {
+        "Clearing agent": "WESTERN EXPRESS FREIGHT L.L.C",
+        "License No.": "AE-1089633"
+      },
+      "Payment information": {
+        "Total Fee": null,
+        "Payment Method": null,
+        "Guarantee/Cheque No.": "RGCH 50.00 [7517305] CA-1013047\nKDID 20.00 [7517306] CA-1013047\nARCH 5.00 [7517304] CA-1013047"
+      },
+      "Exit port": "HATTA (AL WAJAJAH)",
+      "Release date": "15/08/2023",
+      "Other remarks": "[CIF] FRT: INS:\nTotal Value: 52022.86",
+      "Delivery order number": "191002673234",
+      "extraction_timestamp": "2025-05-21T11:50:25.336100",
+      "source_filename": "declaration.pdf",
+      "document_type": "customs_declaration",
+      "issuing_authority": "UAE Federal Customs Authority",
+      "_id": "682d85c55cb8d1fe9c4db353"
+    },
+    "file": "documents/declaration.pdf"
+  },
+  {
+    "status": "success",
+    "message": "Leminar invoice processed and saved successfully",
+    "mongodb_id": "682d85d75cb8d1fe9c4db355",
+    "invoice_number": "Unknown",
+    "data": {
+      "Invoice number": "LACO-39",
+      "Invoice date": "8/11/2023",
+      "Date of export": "8/14/2023",
+      "Currency": "AED",
+      "Shipper/Exporter details": {
+        "company_name": "Leminar Air-Conditioning Co LLC Dubai",
+        "address": "PO BOX 33539\nDubai, UAE",
+        "contact": "+971 43338700"
+      },
+      "Consignee details": {
+        "company_name": null,
+        "address": null,
+        "contact": null
+      },
+      "Line items": [
+        {
+          "SR No": 1,
+          "description": "Rubber Support",
+          "HS code": "40169990",
+          "origin": "India",
+          "weight in KG": 552.0,
+          "quantity": 29733,
+          "unit value": 0.55,
+          "total value": 16249.26
+        },
+        {
+          "SR No": 2,
+          "description": "Spring Hanger",
+          "HS code": "40169990",
+          "origin": "India",
+          "weight in KG": 77.0,
+          "quantity": 277,
+          "unit value": 22.05,
+          "total value": 6107.18
+        },
+        {
+          "SR No": 3,
+          "description": "FJFF 65, FJFF 300, FJFF 75",
+          "HS code": "40169990",
+          "origin": "India",
+          "weight in KG": 470.0,
+          "quantity": 105,
+          "unit value": 156.56,
+          "total value": 16438.44
+        },
+        {
+          "SR No": 4,
+          "description": "Hattersley Valves",
+          "HS code": "84818090",
+          "origin": "China",
+          "weight in KG": 198.0,
+          "quantity": 27,
+          "unit value": 204.91,
+          "total value": 5532.64
+        },
+        {
+          "SR No": 5,
+          "description": "Clamp and Accessories",
+          "HS code": "82057000",
+          "origin": "India",
+          "weight in KG": 225.0,
+          "quantity": 2846,
+          "unit value": 2.7,
+          "total value": 7695.34
+        }
+      ],
+      "Sub-total": 52022.86,
+      "Total weight": 1522,
+      "Total amount in numbers": 52022.86,
+      "Total amount in words": "Fifty Two Thousand Twenty Two & 86/100 Dirhams Only",
+      "LAC reference numbers": [
+        627074,
+        626345,
+        626646,
+        627004,
+        626867,
+        626736,
+        625593,
+        625675,
+        625678,
+        625399,
+        627089,
+        627188,
+        627190,
+        627196,
+        627199,
+        627223
+      ],
+      "Total packages": null,
+      "extraction_timestamp": "2025-05-21T11:50:43.601818",
+      "source_filename": "invoice.pdf",
+      "_id": "682d85d75cb8d1fe9c4db355"
+    },
+    "file": "documents/invoice.pdf"
+  },
+  {
+    "status": "success",
+    "message": "Western Express waybill processed and saved successfully",
+    "mongodb_id": "682d85e45cb8d1fe9c4db357",
+    "consignment_number": "Unknown",
+    "data": {
+      "CRN No.": "319303",
+      "Shipper": {
+        "name": "Leminar",
+        "address": null,
+        "city": "DOBA",
+        "country": null,
+        "contact_name": null,
+        "telephone": "94333870"
+      },
+      "Consignee": {
+        "name": "Ceminar",
+        "address": null,
+        "city": "Ruwi",
+        "country": "OMAN",
+        "contact_name": null,
+        "telephone": "76824/28377"
+      },
+      "Number of packages": null,
+      "Total volume": null,
+      "Chargeable Wt.": null,
+      "Gross Wt.": "522",
+      "Description of goods": null,
+      "Special instructions": null,
+      "Vehicle type": null,
+      "Payment details": null,
+      "Collected by": {
+        "date": "15.8.23",
+        "time": null,
+        "signature": null,
+        "name": "Am-",
+        "truck_no": "289278 DX3"
+      },
+      "Delivered by": {
+        "date": null,
+        "time": null,
+        "signature": null,
+        "name": null,
+        "truck_no": null
+      },
+      "Tracking information": "100356411700003",
+      "extraction_timestamp": "2025-05-21T11:50:56.642237",
+      "source_filename": "waybill.pdf",
+      "document_type": "waybill",
+      "carrier": "Western Express",
+      "_id": "682d85e45cb8d1fe9c4db357"
+    },
+    "file": "documents/waybill.pdf"
+  }
+]

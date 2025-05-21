@@ -1,0 +1,14 @@
+google-generativeai 
+pydantic 
+python-dotenv
+langchain
+langchain-google-genai
+langchain-core
+langchain_community
+pytesseract
+pdf2image 
+pillow
+pymupdf
+pymongo
+langchain_mongodb
+easyocr

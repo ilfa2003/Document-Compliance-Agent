@@ -1,0 +1,10 @@
+Invoice_LACO-39 – Compliance Report
+
+✅ Invoice Matched to Customs Declaration: LACO-39 matched to 203-04144376-23 via cross-referencing.
+✅ Invoice Matched to Consignment Note: LACO-39 matched to 319303 via the "Marks and numbers" field on the waybill ("C.NOTE. 319303").
+❌ Total Weight Match: Invoice shows 1522kg, Waybill shows 1522kg, but Customs Certificate (which appears to be the waybill duplicated) shows 522kg. This discrepancy needs investigation.
+❌ Exporter Name Consistency: Invoice lists "Leminar Air-Conditioning Co LLC Dubai," Waybill has "LEMINAR AIR CONDITIONING CO LLC (I-L0237)" (a close match), but the customs declaration lacks a clear exporter name, only listing "Leminar" in the shipper field.  While similar, the full legal name isn't consistently present.
+❌ Vehicle/Container Number Match:  The waybill/certificate lists truck number "289278 DX3."  No corresponding vehicle/container information is present on the invoice or customs declaration.
+❌ Invoice Date vs Certificate:  Invoice date is 8/11/2023. Customs certificate/waybill date is 15/08/2023 (interpreted as August 15th).  The invoice date is *before* the certificate date, violating this rule.
+
+Final Status: FAIL (4 issues found) 
