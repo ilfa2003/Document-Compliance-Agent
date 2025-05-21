@@ -41,7 +41,7 @@ search_index_model = SearchIndexModel(
 
 # Create the index
 database = client["document_compliance"] #change to your database name
-collection = database["invoices"] #change to your collection name
+collection = database["invoices-test"] #change to your collection name
 
 try:
     result = collection.create_search_index(model=search_index_model)

@@ -30,7 +30,7 @@ query_vector = embeddings.embed_query(search_term)
 
 # MongoDB connection with improved error handling
 DATABASE_NAME = "document_compliance" #change to your database name
-COLLECTION_NAME = "invoices" #change to your collection name
+COLLECTION_NAME = "invoices-test" #change to your collection name
 
 try:
     client = pymongo.MongoClient(
