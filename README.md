@@ -108,7 +108,7 @@ This prompt is passed to the LLM via the LLMService adapter, enabling the model 
 
 ## 🚀 Getting Started
 
- 📌 **Note:** This project requires Python 3.10 or higher. The implementation is designed specifically to cater to the use case of the sample invoices provided. 
+ 📌 **Note:** This project requires Python 3.10 or higher. Preferred to use paid Gemini API key with higher rate limits for vector embeddings. The implementation is designed specifically to cater to the use case of the sample invoices provided. 
 
 ### 1. **Create & activate a Virtual Environment**
 ```bash
@@ -161,7 +161,8 @@ python -m cli.main . --help
      --report - To run compliance agent with deterministic rules & LLM reasoning
      --rag_report - To run compliance agent with deterministic rules combined with rag_context
   '''
-  python -m cli.main . --extract --report --rag_report
+  python -m cli.main documents/ --extract 
+  python -m cli.main . --report --rag_report
   ```
 - The user rules in natural language are defined in `use_cases\compliance_rules.py`.
 ---

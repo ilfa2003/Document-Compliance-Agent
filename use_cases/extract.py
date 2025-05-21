@@ -25,7 +25,7 @@ def detect_document_type(filename: str) -> Optional[str]:
         return 'customs_declaration'
     return None
 
-def batch_extract(files: List[str], doc_type: str = None) -> List[Document]:
+def batch_extract(files: List[str], doc_type: str = None, add_embedding: bool = True) -> List[Document]:
     results = []
     for file_path in files:
         if not os.path.isfile(file_path):
@@ -34,7 +34,27 @@ def batch_extract(files: List[str], doc_type: str = None) -> List[Document]:
         if dtype not in EXTRACTION_MAP:
             continue
         print(f"Extracting {file_path} as {dtype}...")
-        data = EXTRACTION_MAP[dtype](file_path)
+
+        # Use the process_and_save_* function for each type
+        if dtype == 'leminar_invoice':
+            from fallbacks.extract_invoice2 import process_and_save_leminar_invoice
+            result = process_and_save_leminar_invoice(file_path, add_embedding=add_embedding)
+            data = result.get("data", {})
+        elif dtype == 'western_express':
+            from fallbacks.extract_invoice3 import process_and_save_western_express
+            result = process_and_save_western_express(file_path, add_embedding=add_embedding)
+            data = result.get("data", {})
+        elif dtype == 'customs_certificate':
+            from fallbacks.extract_invoice4 import process_and_save_customs_certificate
+            result = process_and_save_customs_certificate(file_path, add_embedding=add_embedding)
+            data = result.get("data", {})
+        elif dtype == 'customs_declaration':
+            from fallbacks.extract_invoice5 import process_and_save_customs_declaration
+            result = process_and_save_customs_declaration(file_path, add_embedding=add_embedding)
+            data = result.get("data", {})
+        else:
+            data = EXTRACTION_MAP[dtype](file_path)
+
         doc = Document(doc_id=file_path, doc_type=dtype, data=data)
         results.append(doc)
     return results 
