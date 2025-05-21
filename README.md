@@ -40,6 +40,7 @@ The Challenge Project Structure is shown Below:
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Project documentation
 ```
+📌 **Note:** `fallbacks` folder contain the rough working which served as the base for the main implementation of this challenge.
 
 ---
 
