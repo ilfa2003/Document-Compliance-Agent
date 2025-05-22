@@ -146,6 +146,7 @@ pip install -r requirements.txt
 
 - Create a database `document_compliance` and a collection in it `invoices-test`. (Incase any name change make sure all the name instances are updated in these files `adapters\mongo_repository.py`,`config\settings.py`, `fallbacks\extract_invoice1.py, extract_invoice2.py, extract_invoice3.py, extract_invoice4.py, extract_invoice5.py`).
 - Run the file `mongoDB vector index\vector-index.py` to create a vector index. (Additionally after running the CLI, can test the vector search through `mongoDB vector index\vector-test.py`)
+- Ensure in `use_cases\rag.py compliance.py` the index name should be same as the vector index created (`index:`).
 
 
 ### 6. **Run the CLI**
